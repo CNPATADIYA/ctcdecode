@@ -1,3 +1,11 @@
+#changes in setup.py
+
+added:
+
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
+
+
 # ctcdecode
 
 ctcdecode is an implementation of CTC (Connectionist Temporal Classification) beam search decoding for PyTorch.
